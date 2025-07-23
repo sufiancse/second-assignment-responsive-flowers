@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* header */
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu-cart{
+    display: flex;
+    gap: 48px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
