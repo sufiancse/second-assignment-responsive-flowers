@@ -3,46 +3,79 @@
 @media screen and (max-width:768px) {
 
     /* header section (navbar + banner) */
-    header{
+    header {
         margin: 0 15px;
         margin-top: 15px;
     }
-    .nav-links{
+
+    .nav-links {
         display: none;
     }
-    .cart{
-        font-size: 1.5rem;
-    }    
 
-    .banner{
+    .cart {
+        font-size: 1.5rem;
+    }
+
+    .banner {
         flex-direction: column-reverse;
     }
-    .banner-content{
+
+    .banner-content {
         margin-top: 30px;
-        
+
     }
 
 
 
     /* Our Plants */
-    .our-plants{
+    .our-plants {
         margin: 0 15px;
         margin-top: 65px;
         margin-bottom: 40px;
     }
-    .plants-card-container{
+
+    .plants-card-container {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
 
 
     /* Flower and Plants lover */
-    .flower-plants-lover{
+    .flower-plants-lover {
         flex-direction: column;
         gap: 18px;
         margin: 0 15px;
     }
-    .trusted-badge{
+
+    .trusted-badge {
         display: none;
+    }
+
+
+
+    /* latest deals */
+    .latest-deals {
+        margin: 0 15px;
+        margin-top: 100px;
+    }
+
+    .deals-grid {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .small-card,
+    .big-card {
+        background-size: cover;
+        background-position: center;
+        padding: 65px 44px;
+        text-align: center;
+        border-radius: 14px;
+        font-weight: bold;
+        color: white;
+        font-size: 2rem;
+    }
+    .small-card button{
+        font-size: 1.5rem;
     }
 }
