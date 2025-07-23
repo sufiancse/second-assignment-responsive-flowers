@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+/* shared section */
+.description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /* header */
 header{
@@ -33,9 +37,18 @@ nav{
 }
 
 
-
-
-
+/* banner */
+.banner{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+.banner-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #E95A08;
+    margin-bottom: 15px;
+}
 
 
 

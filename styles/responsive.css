@@ -1,6 +1,8 @@
 /* responsive for mobile */
 
 @media screen and (max-width:768px) {
+
+    /* header section (navbar + banner) */
     header{
         margin: 0 15px;
         margin-top: 15px;
@@ -11,4 +13,12 @@
     .cart{
         font-size: 1.5rem;
     }    
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin-top: 30px;
+        
+    }
 }
