@@ -9,15 +9,27 @@
     font-size: 3.125rem;
     font-weight: bold;
     margin-bottom: 16px;
+    font-family: "Noto Serif", serif;
 }
 
 .description {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
 }
 
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
 
+.font-noto {
+    font-family: "Noto Serif", serif;
+}
 
+li a:hover{
+    font-weight: bold;
+    color: black;
+}
 
 
 /* header */
@@ -36,6 +48,7 @@ nav {
 .nav-menu-cart {
     display: flex;
     gap: 48px;
+    font-family: "Inter", sans-serif;
 }
 
 .nav-links {
@@ -48,6 +61,7 @@ nav {
     text-decoration: none;
     color: #8987A1;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -76,7 +90,7 @@ nav {
 .our-plants {
     max-width: 1140px;
     margin: 100px auto;
-    
+    text-align: center;
 }
 
 .our-plants-heading {
@@ -108,11 +122,13 @@ nav {
     font-size: 1.375rem;
     font-weight: 500;
     margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
 }
 
 .plant-card-content h4 {
     font-size: 1.375rem;
     font-weight: 600;
+    font-family: "Inter", sans-serif;
 }
 
 .card-button {
@@ -158,7 +174,8 @@ nav {
 .flower-plants-lover-right {
     max-width: 540px;
 }
-.flower-plants-lover-right li{
+
+.flower-plants-lover-right li {
     margin: 20px 0;
     margin-left: 20px;
 }
@@ -168,21 +185,25 @@ nav {
 
 
 /* Latest Deals */
-.latest-deals{
+.latest-deals {
     max-width: 1140px;
     margin: 0 auto;
 }
-.deals-grid{
+
+.deals-grid {
     margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 28px;
 }
-.deals-grid-left{
+
+.deals-grid-left {
     display: grid;
     gap: 25px;
 }
-.small-card, .big-card{
+
+.small-card,
+.big-card {
     background-size: cover;
     background-position: center;
     padding: 65px 44px;
@@ -191,66 +212,71 @@ nav {
     font-weight: bold;
     color: white;
     font-size: 1.25rem;
-}
-.deals-grid-left .small-card:nth-child(1){
-    background-image:url(../assets/deal-bloom.png) ;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-}
-.deals-grid-left .small-card:nth-child(2){
-    background-image: url(../assets/deal-ana.png);
+    font-family: "Noto Serif", serif;
 }
 
-.big-card{
-    background-image: url(../assets/deal-zabo.png);
+.deals-grid-left .small-card:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-bloom.png);
+    /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.deals-grid-left .small-card:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-ana.png);
+}
+
+.big-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/deal-zabo.png);
     height: 100%;
 }
-.big-card{
+
+.big-card {
     font-size: 2.5rem;
     padding: 170px 100px;
 }
 
-.small-card button{
+.small-card button,
+.big-card button {
     background-color: transparent;
-    border:none;
+    border: none;
     text-decoration: underline;
     color: white;
     padding: 19px 90px;
     cursor: pointer;
+    font-family: "Inter", sans-serif;
 }
-.big-card button{
-    background-color: transparent;
-    border:none;
-    text-decoration: underline;
-    color: white;
-    padding: 19px 90px;
-    cursor: pointer;
+
+.big-card button {
     font-size: 1.5rem;
 }
 
 
 
 /* Join the colorful Bunch */
-.join-the-bunch{
-    background-image: url(../assets/news-letter-bg.png);
+.join-the-bunch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/news-letter-bg.png);
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 195px 0px;
 }
-.join-the-bunch h2{
+
+.join-the-bunch h2 {
     color: white;
 }
-form{
+
+form {
     display: flex;
     justify-content: center;
 }
-input{
+
+input {
     background-color: white;
     border: none;
     padding: 15px 20px;
     padding-right: 500px;
 }
-form button{
+
+form button {
     background-color: #E95A08;
     padding: 15px 50px;
     border: none;
@@ -260,31 +286,38 @@ form button{
 
 
 /* footer */
-footer{
+footer {
     max-width: 1140px;
     margin: 50px auto;
     display: flex;
     gap: 110px;
 }
-.footer-logo-description{
-    width: 359px ;
+
+.footer-logo-description {
+    width: 359px;
 }
-footer ul{
+
+footer ul {
     list-style: none;
 }
-footer ul li{
-    
+
+footer ul li {
+
     margin-bottom: 32px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
 }
-.footer-icons img{
+
+.footer-icons img {
     max-width: 36px;
     max-height: 36px;
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
     gap: 24px;
 }
