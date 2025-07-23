@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* shared section */
-.section-title{
+.section-title {
     font-size: 3.125rem;
     font-weight: bold;
     margin-bottom: 16px;
 }
-.description{
+
+.description {
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -20,26 +21,30 @@
 
 
 /* header */
-header{
+header {
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 30px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-menu-cart{
+
+.nav-menu-cart {
     display: flex;
     gap: 48px;
 }
-.nav-links{
+
+.nav-links {
     list-style: none;
     display: flex;
     gap: 48px;
 }
-.nav-links a{
+
+.nav-links a {
     text-decoration: none;
     color: #8987A1;
     font-weight: 400;
@@ -47,12 +52,13 @@ nav{
 
 
 /* banner */
-.banner{
+.banner {
     display: flex;
     align-items: flex-end;
     margin-top: 100px;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 4rem;
     font-weight: 700;
     color: #E95A08;
@@ -61,37 +67,48 @@ nav{
 
 
 /* Our Plants */
-.our-plants{
+.our-plants {
     max-width: 1140px;
     margin: 100px auto;
     text-align: center;
 }
-.our-plants-heading{
+
+.our-plants-heading {
     max-width: 900px;
     margin: auto;
     margin-bottom: 50px;
 }
 
-.plant-card{
+.plants-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.plant-card {
     max-width: 270px;
 }
-.plant-card img{
+
+.plant-card img {
     width: 100%;
 }
-.plant-card-content{
+
+.plant-card-content {
     margin: 20px auto;
 }
-.plant-card-content h3{
+
+.plant-card-content h3 {
     font-size: 1.375rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.plant-card-content h4{
+
+.plant-card-content h4 {
     font-size: 1.375rem;
     font-weight: 600;
 }
 
-.card-button{
+.card-button {
     background-color: #E95A08;
     color: white;
     font-weight: 600;
@@ -101,8 +118,35 @@ nav{
     cursor: pointer;
 }
 
-.plants-card-container{
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    gap: 20px;
+
+/* flower and plants lover */
+.flower-plants-lover {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.flower-plants-lover-left {
+    position: relative;
+    max-width: 540px;
+}
+
+.trusted-badge {
+    width: 286px;
+    width: 286px;
+    position: absolute;
+    left: 361px;
+    bottom: 442px;
+}
+
+.flower-plants-lover-right {
+    max-width: 540px;
+}
+.flower-plants-lover-right li{
+    margin: 20px 0;
+    margin-left: 20px;
 }
