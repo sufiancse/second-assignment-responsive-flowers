@@ -67,12 +67,12 @@
     .small-card,
     .big-card {
         
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 65px 44px;
     }
 
     .small-card button {
-        font-size: 1.5rem;
+        font-size: 1.125rem;
     }
 
 

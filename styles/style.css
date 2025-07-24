@@ -163,12 +163,22 @@ nav {
     max-width: 540px;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .trusted-badge {
     width: 286px;
     width: 286px;
     position: absolute;
     left: 361px;
     bottom: 442px;
+    animation: spin 10s linear infinite;
 }
 
 .flower-plants-lover-right {
